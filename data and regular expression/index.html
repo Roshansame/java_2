@@ -1,0 +1,30 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+    <title>date and regulat expression</title>
+    <script>
+        var now = new Date();
+        console.log(now);
+
+        var dob = new Date("13, apirl 2006");
+        console.log(dob);
+        dob = new Date("2006-04-13");
+        console.log(dob);
+        console.log(dob.valueOf());
+
+        var regex = /[0-9]/;
+        console.log(regex.test("some text"));//false
+        console.log(regex.test("some 1234 text"));//true
+
+
+        regex = new regex('[0-9]');
+        console.log(regex.test('some text'));
+        console.log(regex.test("sone 1234 text"));
+    </script>
+</head>
+
+<body>
+    <h1>date and regular expressions</h1>
+</body>

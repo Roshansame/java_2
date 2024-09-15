@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+    <title>array manipulation method</title>
+    <script>
+        var fruit = ["apple", "mango", "orange"];
+        console.log(fruit);
+
+        var newfruit = fruit.concat();
+        newfruit.push("bananna", "graps", "kiwi", "strawberry");
+        console.log(fruit);
+        console.log(newfruit);
+
+        var firstthreefruit = newfruit.slice(0, 3);
+        console.log("first three fruit:", firstthreefruit);
+
+        var lastfruit = newfruit.slice(3);
+        console.log("last fruit;", lastfruit);
+
+        var removedfruit = newfruit.splice(3, newfruit.length - 3);
+        console.log("removed gruit:", removedfruit)
+    </script>
+</head>
+
+<body>
+    <h1>array manipulation method</h1>
+</body>
+
+</html>

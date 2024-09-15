@@ -1,0 +1,25 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+    <title>array location method</title>
+    <script>
+        var availablefruit = ["apple", "orange", "mango", "gova", "strawberry"];
+        var customerchoice = "mango";
+        var avaiableposition = avaiablefruit.indexof(customerchoice);
+        console.log(customerchoice + "is avaiable" + avaiableposition);
+
+        customerchoice = "kiwi";
+        avaiableposition = avaiablefruit.indexof(customerchoice);
+        if (avaiableposition !== -1) {
+            console.log(customerchoice + "is avaiable at" + availablefruit);
+        } else {
+            console.log(customerchoice + "is not avaiable");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>array location method</h1>
+</body>

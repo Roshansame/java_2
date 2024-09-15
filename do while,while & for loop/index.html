@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>do while ,while & for loop</title>
+    <script>
+        //do {
+        //  console.log("playing game");
+        //var continueplaying  = confirm("Do you want to continue?");
+        //} while (continueplaying)
+        //console.log("the end")
+
+        //while loop
+        // var count = 10;
+        //while (count > 10) {
+        //   console.log('count:', count--);
+        //}
+        //console.log('while loop ended');
+
+        //for loop
+        //for (var daysinweek = 1; daysinweek <= 7; daysinweek++) {
+        //   console.log("day:", daysinweek)
+        //}
+        //break and continous
+        var month = prompt('enter the number between 1 to 12', 6);
+        for (var day = 1; day <= 31; day++) {
+            if ((month = 4 || month == 6 || month == 9 || month == 11) && day == 30) continue;
+            console.log('day:', day);
+            if (month == 2 && day == 28) break;
+        }
+
+    </script>
+</head>
+
+<body>
+    <h1> do while,while & for loop</h1>
+</body>
+
+</html>

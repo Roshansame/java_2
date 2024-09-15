@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+    <title>Array conversion method</title>
+    <script>
+        var user = {
+            name: "javascript learner",
+            sayhi: function () {
+                return 'Hi';
+            },
+            toString: function () {
+                return this.name + 'says' + this.sayhi();
+            },
+            valueof: function () {
+                return true;
+            }
+        };
+
+        console.log(user.toString());
+        console.log(user.valueof());
+
+        var fruit = ["apple", "orange", "mango"];
+        console.log(fruit.toString());
+
+        console.log(fruit.join(' + '));
+    </script>
+</head>
+
+<body>
+    <h1>
+        array conversion method
+    </h1>
+</body>
+
+</html>

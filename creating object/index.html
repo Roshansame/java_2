@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0">
+    <title>Creating object</title>
+    <script>
+        function employee() {
+            //
+        }
+        console.log(employee());
+        console.log(new employee());
+
+        function employee() {
+            var emp = {};
+            return emp;
+        }
+
+        function Employee(name, designation, salary) {
+            emp.name = name;
+            emp.designation = designation;
+            emp.salary = salary;
+        }
+
+        var employee1 = new Employee("roshan", "full stack developer", 15000);
+        console.lod(employee1);
+        var employee2 = new Employee("rifay", "fultter developer", 40000);
+        console.log(employee2);
+        console.log(employee1 instanceof Employee);
+    </script>
+</head>
+
+<body>
+    <h1>Creating object</h1>
+</body>
+
+</html>
